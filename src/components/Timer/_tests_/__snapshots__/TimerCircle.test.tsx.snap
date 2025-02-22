@@ -1,0 +1,83 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TimerCircle > renders correctly 1`] = `
+<div>
+  <svg
+    aria-label="Timer progress"
+    class="w-full h-full transform -rotate-90"
+    role="img"
+    viewBox="0 0 200 200"
+  >
+    <circle
+      class="text-secondary"
+      cx="100"
+      cy="100"
+      fill="transparent"
+      r="50"
+      stroke="currentColor"
+      stroke-width="8"
+    />
+    <circle
+      class="text-white transition-all duration-300"
+      cx="100"
+      cy="100"
+      fill="transparent"
+      r="50"
+      stroke="currentColor"
+      stroke-dasharray="314"
+      stroke-dashoffset="157"
+      stroke-linecap="round"
+      stroke-width="8"
+    />
+    <circle
+      class="text-white transition-all duration-300"
+      cx="100"
+      cy="150"
+      fill="currentColor"
+      r="12"
+      transform="rotate(90 100 100)"
+    />
+  </svg>
+</div>
+`;
+
+exports[`TimerCircle > renders correctly with given props 1`] = `
+<div>
+  <svg
+    aria-label="Timer progress"
+    class="w-full h-full transform -rotate-90"
+    role="img"
+    viewBox="0 0 200 200"
+  >
+    <circle
+      class="text-secondary"
+      cx="100"
+      cy="100"
+      fill="transparent"
+      r="50"
+      stroke="currentColor"
+      stroke-width="8"
+    />
+    <circle
+      class="text-white transition-all duration-300"
+      cx="100"
+      cy="100"
+      fill="transparent"
+      r="50"
+      stroke="currentColor"
+      stroke-dasharray="314"
+      stroke-dashoffset="157"
+      stroke-linecap="round"
+      stroke-width="8"
+    />
+    <circle
+      class="text-white transition-all duration-300"
+      cx="100"
+      cy="150"
+      fill="currentColor"
+      r="12"
+      transform="rotate(90 100 100)"
+    />
+  </svg>
+</div>
+`;

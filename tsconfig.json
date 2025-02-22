@@ -1,0 +1,19 @@
+{
+    "include": [
+        "./src/**/*",
+        "vitest.config.ts",
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "jsx": "react-jsx",
+        "types": [
+            "vitest/globals",
+            "@testing-library/jest-dom",
+        ],
+    }
+}

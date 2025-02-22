@@ -1,0 +1,5 @@
+.codesandbox
+.devcontainer
+coverage
+node_modules
+public

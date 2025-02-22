@@ -1,0 +1,13 @@
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #546e7a;
+  --color-secondary: #263238;
+  --color-tertiary: #37474f;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
