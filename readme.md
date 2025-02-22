@@ -2,12 +2,6 @@
 
 - pnpm
 
-### Installation / Running the App
-
-You should be able to run the app via the devbox setup in Codesandbox and view a preview of the application.
-
-It will be available on localhost:5173 in the preview
-
 #### Running App Locally
 
 1. Clone Repo
