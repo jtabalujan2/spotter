@@ -10,13 +10,16 @@ It will be available on localhost:5173 in the preview
 
 #### Running App Locally
 
-You can create an SSH session with the devbox via VSCode or Cursor:
-
-1. Go to the top right corner and click "Open in VSCode"
-   a. You may need to install some extensions for SSH support to connect to the devbox
-2. It should automatically run the app on localhost:5173
-   a. If it doesn't, open up the terminal in the IDE and run `pnpm run dev`
-3. Open up your browser to localhost:5173
+1. Clone Repo
+2. Install Dependencies
+   ```
+   pnpm install
+   ```
+3. Run the app
+   ```
+   pnpn run dev
+   ```
+4. Open in browser (localhost:5173)
 
 ### Running Tests
 
